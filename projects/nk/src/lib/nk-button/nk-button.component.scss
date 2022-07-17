@@ -1,0 +1,8 @@
+// @import url('projects/nk/src/scss/variables/_variables.scss');
+@import url('./styles/variables/_variables.scss');
+
+.nk-button {
+  background-color: $primary_color;
+  border: none;
+  padding: 16px;
+}
