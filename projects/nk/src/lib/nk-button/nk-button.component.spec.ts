@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NkComponent } from './nk.component';
+import { NkButtonComponent } from './nk-button.component';
 
-describe('NkComponent', () => {
-  let component: NkComponent;
-  let fixture: ComponentFixture<NkComponent>;
+describe('ButtonComponent', () => {
+  let component: NkButtonComponent;
+  let fixture: ComponentFixture<NkButtonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NkComponent ]
+      declarations: [ NkButtonComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NkComponent);
+    fixture = TestBed.createComponent(NkButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

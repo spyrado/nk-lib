@@ -7,7 +7,12 @@
       "projectType": "library",
       "root": "projects/nk",
       "sourceRoot": "projects/nk/src",
-      "prefix": "lib",
+      "prefix": "nk",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

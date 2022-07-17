@@ -1,7 +1,5 @@
 /*
  * Public API Surface of nk
  */
-
-export * from './lib/nk.service';
-export * from './lib/nk.component';
-export * from './lib/nk.module';
+export { NkButtonModule } from './lib/nk-button/nk-button.module';
+export { NkButtonComponent } from './lib/nk-button/nk-button.component'
