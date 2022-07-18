@@ -1,1 +1,11 @@
-<button class="nk-button" [attr.type]="type">{{ label }}</button>
+<button 
+  class="nk-button" 
+  [attr.type]="type"
+  [ngClass]="{
+    'nk-button--sm': size === ButtonSizeEnum.SMALL,
+    'nk-button--md': size === ButtonSizeEnum.MEDIUM,
+    'nk-button--lg': size === ButtonSizeEnum.LARGE
+  }"
+>
+  {{ label }}
+</button>

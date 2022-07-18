@@ -1,8 +1,27 @@
-// @import url('projects/nk/src/scss/variables/_variables.scss');
-@import url('./styles/variables/_variables.scss');
+@import './variables/index';
 
 .nk-button {
   background-color: $primary_color;
-  border: none;
-  padding: 16px;
+  border-style: none;
+  border-radius: 25px;
+  padding: 9px 0;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+
+
+  &--sm {
+    width: 83px !important;
+  }
+
+  &--md {
+    width: 116px !important;
+  }
+
+  &--lg {
+    width: 154px !important;
+  }
 }
